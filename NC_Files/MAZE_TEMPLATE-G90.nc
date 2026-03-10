@@ -1,6 +1,6 @@
 %
-O[your six digit birthdate]  
-([your name] MAZE) 
+O[ 5,22,11]  
+(Travell Anthony MAZE) 
 (Startup Process)
 T1 M06 	 		(Select tool)
 G54 			(Use Work Offset G54)		
@@ -14,8 +14,22 @@ G01 [your xy start position] F12.0		(Go to start position and set Cutting Speed 
 M03 S1000		(Spin the pen for better precision)
 Z0.0			(Move the pen to the paper)
 
-(MOVEMENTS TO SOLVE THE MAZE)
-[put the G90 XY coordinate pairs here]
+(MOVEMENTS TO SOLVE THE MAZE)[1.5,5 
+-0.5,5 
+-0.5,12 
+5.5,12 
+5.5,16 
+9.5,16 
+9.5,15 
+15.5,14 
+15.5,16 
+17.5,16 
+17.5,18 
+18.5,18 
+18.5,19 
+19.5,19 
+19.5,20 
+20,20
 
 (END SEQUENCE)
 G00 G53 Z0.0	(Raise the pen) 
