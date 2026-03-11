@@ -1,6 +1,6 @@
 %
-O[your six digit birthdate]  
-([your name] MAZE) 
+O[05,22,11]  
+([Travell Anthony] MAZE) 
 (Startup Process)
 T1 M06 	 		(Select tool)
 G54 			(Use Work Offset G54)		
@@ -16,8 +16,20 @@ Z0.0			(Move the pen to the paper)
 G91       (Change to Incremental positioning)
 
 (MOVEMENTS TO SOLVE THE MAZE)
-[put the G91 XY coordinate pairs here]
-
+X1.5 Y5 (north)
+X-1.5 Y0 (east)
+X0 Y7.5 (north)
+X6.5 Y0 (weast)
+X0 Y5 (north)
+X4.5 Y0 (weast)
+X0 Y-3 (south)
+X7 Y0 (weast)
+X0 Y2 (north)
+X2 Y0 (weast)
+X1 Y0 (north)
+X0 Y1 (weast)
+X1 Y0 (north)
+X0 Y1 (weast)
 (END SEQUENCE)
 G00 G53 Z1.0	(Raise the pen) 
 M30 			(End Program)
