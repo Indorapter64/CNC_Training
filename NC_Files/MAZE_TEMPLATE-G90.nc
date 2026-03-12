@@ -28,9 +28,9 @@ X4.75 Y3.75 (west)
 X4.75 Y4.25 (north)
 X5 Y4.25 (west)
 X5 Y4.5 (west)
-X5.25 Y4.75 (north)
+X5.25 Y4.5 (north)
 X5.25 Y4.75 (west)
-X6 Y4.75
+X5.75 Y4.75
 (END SEQUENCE)
 G00 G53 Z0.0	(Raise the pen) 
 M30 			(End Program)
